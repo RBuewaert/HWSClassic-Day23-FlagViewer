@@ -10,7 +10,6 @@ import UIKit
 class ViewController: UITableViewController {
 
     var flags = [String]()
-    var toto = [String]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +37,7 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Country", for: indexPath)
         // Name is the name of the png file
-        cell.textLabel?.text = flags[indexPath.row]
+        cell.textLabel?.text = flags[indexPath.row].uppercased()
         return cell
     }
 
