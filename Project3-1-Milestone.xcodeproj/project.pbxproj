@@ -25,6 +25,7 @@
 		699653C126AEDAF300B574E6 /* spain.png in Resources */ = {isa = PBXBuildFile; fileRef = 699653B526AEDAF300B574E6 /* spain.png */; };
 		699653C226AEDAF300B574E6 /* estonia.png in Resources */ = {isa = PBXBuildFile; fileRef = 699653B626AEDAF300B574E6 /* estonia.png */; };
 		699653C326AEDAF300B574E6 /* nigeria.png in Resources */ = {isa = PBXBuildFile; fileRef = 699653B726AEDAF300B574E6 /* nigeria.png */; };
+		699653C526AEDC9B00B574E6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699653C426AEDC9B00B574E6 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		699653B526AEDAF300B574E6 /* spain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spain.png; sourceTree = "<group>"; };
 		699653B626AEDAF300B574E6 /* estonia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = estonia.png; sourceTree = "<group>"; };
 		699653B726AEDAF300B574E6 /* nigeria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nigeria.png; sourceTree = "<group>"; };
+		699653C426AEDC9B00B574E6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				6996539926AED9B300B574E6 /* SceneDelegate.swift */,
 				6996539B26AED9B300B574E6 /* ViewController.swift */,
 				6996539D26AED9B300B574E6 /* Main.storyboard */,
+				699653C426AEDC9B00B574E6 /* DetailViewController.swift */,
 				699653A026AED9B400B574E6 /* Assets.xcassets */,
 				699653A226AED9B400B574E6 /* LaunchScreen.storyboard */,
 				699653A526AED9B400B574E6 /* Info.plist */,
@@ -196,6 +199,7 @@
 				6996539C26AED9B300B574E6 /* ViewController.swift in Sources */,
 				6996539826AED9B300B574E6 /* AppDelegate.swift in Sources */,
 				6996539A26AED9B300B574E6 /* SceneDelegate.swift in Sources */,
+				699653C526AEDC9B00B574E6 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +348,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96Q85JB8SS;
-				INFOPLIST_FILE = "Project1-3-Milestone/Info.plist";
+				INFOPLIST_FILE = "Project3-1-Milestone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,7 +367,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96Q85JB8SS;
-				INFOPLIST_FILE = "Project1-3-Milestone/Info.plist";
+				INFOPLIST_FILE = "Project3-1-Milestone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
