@@ -38,6 +38,7 @@ class ViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Country", for: indexPath)
         // Name is the name of the png file
         cell.textLabel?.text = flags[indexPath.row].uppercased()
+        cell.imageView?.image = UIImage(contentsOfFile: flags[indexPath.row])
         return cell
     }
 
