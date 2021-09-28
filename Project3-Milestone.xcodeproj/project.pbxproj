@@ -348,12 +348,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96Q85JB8SS;
-				INFOPLIST_FILE = "Project3-1-Milestone/Info.plist";
+				INFOPLIST_FILE = "Project3-Milestone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "fr.buewaertromain.Project1-3-Milestone";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.buewaertromain.Project3-Milestone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -367,12 +367,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96Q85JB8SS;
-				INFOPLIST_FILE = "Project3-1-Milestone/Info.plist";
+				INFOPLIST_FILE = "Project3-Milestone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "fr.buewaertromain.Project1-3-Milestone";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.buewaertromain.Project3-Milestone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
