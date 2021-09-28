@@ -29,7 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6996539426AED9B300B574E6 /* Project3-1-Milestone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project3-1-Milestone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6996539426AED9B300B574E6 /* Project3-Milestone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project3-Milestone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6996539726AED9B300B574E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6996539926AED9B300B574E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6996539B26AED9B300B574E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		6996538B26AED9B300B574E6 = {
 			isa = PBXGroup;
 			children = (
-				6996539626AED9B300B574E6 /* Project3-1-Milestone */,
+				6996539626AED9B300B574E6 /* Project3-Milestone */,
 				6996539526AED9B300B574E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,12 +74,12 @@
 		6996539526AED9B300B574E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6996539426AED9B300B574E6 /* Project3-1-Milestone.app */,
+				6996539426AED9B300B574E6 /* Project3-Milestone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6996539626AED9B300B574E6 /* Project3-1-Milestone */ = {
+		6996539626AED9B300B574E6 /* Project3-Milestone */ = {
 			isa = PBXGroup;
 			children = (
 				699653AB26AED9F500B574E6 /* Content */,
@@ -92,7 +92,7 @@
 				699653A226AED9B400B574E6 /* LaunchScreen.storyboard */,
 				699653A526AED9B400B574E6 /* Info.plist */,
 			);
-			path = "Project3-1-Milestone";
+			path = "Project3-Milestone";
 			sourceTree = "<group>";
 		};
 		699653AB26AED9F500B574E6 /* Content */ = {
@@ -117,9 +117,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6996539326AED9B300B574E6 /* Project3-1-Milestone */ = {
+		6996539326AED9B300B574E6 /* Project3-Milestone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 699653A826AED9B400B574E6 /* Build configuration list for PBXNativeTarget "Project3-1-Milestone" */;
+			buildConfigurationList = 699653A826AED9B400B574E6 /* Build configuration list for PBXNativeTarget "Project3-Milestone" */;
 			buildPhases = (
 				6996539026AED9B300B574E6 /* Sources */,
 				6996539126AED9B300B574E6 /* Frameworks */,
@@ -129,9 +129,9 @@
 			);
 			dependencies = (
 			);
-			name = "Project3-1-Milestone";
+			name = "Project3-Milestone";
 			productName = "Project1-3-Milestone";
-			productReference = 6996539426AED9B300B574E6 /* Project3-1-Milestone.app */;
+			productReference = 6996539426AED9B300B574E6 /* Project3-Milestone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -148,7 +148,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6996538F26AED9B300B574E6 /* Build configuration list for PBXProject "Project3-1-Milestone" */;
+			buildConfigurationList = 6996538F26AED9B300B574E6 /* Build configuration list for PBXProject "Project3-Milestone" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -161,7 +161,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6996539326AED9B300B574E6 /* Project3-1-Milestone */,
+				6996539326AED9B300B574E6 /* Project3-Milestone */,
 			);
 		};
 /* End PBXProject section */
@@ -382,7 +382,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6996538F26AED9B300B574E6 /* Build configuration list for PBXProject "Project3-1-Milestone" */ = {
+		6996538F26AED9B300B574E6 /* Build configuration list for PBXProject "Project3-Milestone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				699653A626AED9B400B574E6 /* Debug */,
@@ -391,7 +391,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		699653A826AED9B400B574E6 /* Build configuration list for PBXNativeTarget "Project3-1-Milestone" */ = {
+		699653A826AED9B400B574E6 /* Build configuration list for PBXNativeTarget "Project3-Milestone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				699653A926AED9B400B574E6 /* Debug */,
