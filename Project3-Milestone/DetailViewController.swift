@@ -14,8 +14,6 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-
         title = selectedImage?.uppercased()
         navigationItem.largeTitleDisplayMode = .never
 
@@ -41,9 +39,9 @@ class DetailViewController: UIViewController {
             print("No image found")
             return
         }
-        // The next line also shares the title of the image
-        if let imageToShare = selectedImage {
-            let vc = UIActivityViewController(activityItems: [image, imageToShare], applicationActivities: [])
+
+        if let imageName = selectedImage {
+            let vc = UIActivityViewController(activityItems: [image, imageName], applicationActivities: [])
             vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
             present(vc, animated: true)
         }
