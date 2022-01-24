@@ -10,7 +10,7 @@ import UIKit
 class DetailViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     var selectedImage: String?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,8 +20,7 @@ class DetailViewController: UIViewController {
         navigationItem.largeTitleDisplayMode = .never
 
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
-        
-        
+
         if let imageToLoad = selectedImage {
             imageView.image = UIImage(named: imageToLoad)
         }
