@@ -28,7 +28,7 @@
         <!--View Controller-->
         <scene sceneID="IKd-t2-7UG">
             <objects>
-                <tableViewController id="jSA-Ga-c9K" customClass="ViewController" customModule="Project3_Milestone" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="jSA-Ga-c9K" customClass="ViewController" customModule="HWSClassic_Day23_FlagViewer" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="1DC-PS-eOL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -48,7 +48,9 @@
                             <outlet property="delegate" destination="jSA-Ga-c9K" id="PZW-ZE-YiI"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="kfk-xZ-lWM"/>
+                    <navigationItem key="navigationItem" id="kfk-xZ-lWM">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="pEw-Ba-Jrp"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yc7-n3-WAi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -57,7 +59,7 @@
         <!--Detail View Controller-->
         <scene sceneID="l0v-qw-g40">
             <objects>
-                <viewController storyboardIdentifier="Detail" id="8Kd-42-6Zt" customClass="DetailViewController" customModule="Project3_Milestone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Detail" id="8Kd-42-6Zt" customClass="DetailViewController" customModule="HWSClassic_Day23_FlagViewer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gNG-Iv-bmt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
